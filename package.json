@@ -1,0 +1,21 @@
+{
+  "name": "node_simple_http_server",
+  "version": "1.0.0",
+  "description": "Simple HTTP server with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon server.js"
+  },
+  "keywords": [
+    "Node",
+    "Nodejs",
+    "HTTP"
+  ],
+  "author": "Tannai Simon <tannai.simon@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "helmet": "^3.1.0"
+  }
+}
